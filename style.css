@@ -1,0 +1,249 @@
+/* NavigationBar */
+body{
+        background-color: #000;
+}
+a{
+        color: #fff;
+}
+
+.Header
+{
+                background-color: #000;
+                
+              
+}
+
+
+.navbar
+{
+                padding: 0 45px;
+                        
+                    
+}
+
+.navbar-brand
+{
+        font-size: 2.5rem;
+        font-family: 'Montserrat-Bold';
+        /* color: #F9F54B !important; */
+        color: #A9A9A9 !important;
+        
+}
+.navbar-nav{
+        font-size: 1.1rem;
+        
+}
+.nav-item
+{
+        text-align: center;
+
+}
+
+
+
+/* TitleBody */
+
+#titleBody
+{
+        background-color: #000;
+        padding-bottom: 21px;
+        
+       
+
+}
+
+.title
+{
+        text-align: left;
+        color: #fff;
+        margin: auto;
+        
+}
+
+
+.titleHeader
+{
+        font-family: 'Monsterrat';
+        font-size: 3rem;
+        width: 100%;
+    text-align: center;
+
+}
+
+.titleSub
+{
+        font-family: 'Open Sans';
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+}
+
+
+.imageB
+{
+        text-align: center;
+}
+
+.imageBody
+
+{
+        width: 65%;       
+}
+
+/* Achievements */
+
+#achievements
+{
+                text-align: center;
+               
+                background-color: #000;
+                color: #fff;
+                margin-top: 25px;
+
+}
+
+.achieveTitle
+{
+        font-family: 'Monsterrat';
+        color: #A9A9A9 ;
+}
+.card
+{
+        background-color: #000;
+        margin-top: 40px;
+        text-align: center !important;
+        
+}
+.cardtitle
+
+{
+        text-align: center;
+}
+
+
+.sankaraImage
+{
+        width: 50%;
+        position: relative;
+        margin: auto;
+}
+.maharajasImage
+{
+        width: 50%;
+        position: relative;
+        margin: auto;
+}
+.collegepara
+{
+        font-family: 'Open Sans';
+}
+
+
+/* About */
+
+#about
+{
+                margin-top: 25px;
+                margin-bottom: 30px;
+}
+.aboutHeading{
+        font-family: 'Monsterrat';
+        color: #A9A9A9 ;
+        text-align: center;
+}
+
+.aboutImagefield
+{
+        width: 50%;  
+          
+}
+
+.aboutImage
+{
+        text-align: center; 
+        margin-top: 30px;
+}
+.aboutDetails
+{
+                margin-top: 30px;
+                color: #fff;
+                font-size: 20px;
+                font-family: 'Open Sans' ;
+                position: relative;
+                margin: auto;
+                padding-right: 50px;
+}
+
+/* Contactme */
+
+#Contact
+{
+        text-align: center;
+        color: #fff !important;
+}
+
+.contactHeading
+{
+        font-family: 'Monsterrat';
+        color: #A9A9A9 ;
+        text-align: center;
+}
+
+.contactMe
+{
+        margin-top: 35px;
+}
+
+.fa-brands
+{
+        padding-left: 20px;
+}
+
+.phoneNum
+{
+        padding-top: 10px;
+}
+
+
+/* mediaquery */
+@media only screen and (max-width: 640px)
+{
+        
+        .navbar-brand
+        {
+                font-size: 2.0rem;
+        }
+        
+        .imageBody
+        {
+                width: 100%;
+                padding: 33px;
+
+        }
+
+         .aboutDetails
+        {
+                text-align: center;
+                margin: auto;
+                font-size: 16px;
+                margin-top: 23px;
+                padding-left: 45px;
+        }
+
+        .aboutImage
+        {
+                margin-top: 0px;
+        }
+        .aboutImagefield
+        {
+                       
+                        width: 100%;
+                         padding: 76px;
+                         margin: 0px;
+        }
+
+        .titleHeader{
+
+                font-size: 2.5rem;
+        }
+}
